@@ -1,0 +1,45 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+header.jumbotron {
+    background: #f8f9fa;
+    padding: 2rem 1rem;
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header-title {
+    font-family: 'Pacifico', cursive;
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #343a40;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.header-title:hover {
+    color: #007bff;
+    transform: scale(1.05);
+}
+
+.header-subtitle {
+    font-size: 1.5rem;
+    color: #6c757d;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.header-subtitle:hover {
+    color: #007bff;
+    transform: scale(1.05);
+}
+
+section {
+    padding: 2rem 0;
+}
+
+footer {
+    background: #f8f9fa;
+    padding: 1rem 0;
+    border-top: 1px solid #e9ecef;
+}
